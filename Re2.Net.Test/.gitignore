@@ -1,0 +1,11 @@
+# User-specific files
+.vs
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+/bin
+/obj
+/mtent12.txt

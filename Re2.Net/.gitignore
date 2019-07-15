@@ -1,0 +1,10 @@
+/.vs
+/*.rsuser
+/*.suo
+/*.user
+/*.userosscache
+/*.sln.docstates
+/bin
+/obj
+/[Dd]ebug
+/[Rr]elease
