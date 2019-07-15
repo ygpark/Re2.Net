@@ -1,5 +1,5 @@
-/*
- *  Re2.Net Copyright � 2014 Colt Blackmore. All Rights Reserved.
+﻿/*
+ *  Re2.Net Copyright ©2014 Colt Blackmore. All Rights Reserved.
  *
  *  See Regex.h for licensing and contact information.
  */

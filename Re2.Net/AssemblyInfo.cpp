@@ -1,5 +1,5 @@
 /*
- *  Re2.Net Copyright © 2014 Colt Blackmore. All Rights Reserved.
+ *  Re2.Net Copyright ¨Ï2014 Colt Blackmore. All Rights Reserved.
  *
  *  See Regex.h for licensing and contact information.
  */
@@ -19,7 +19,7 @@ using namespace System::Security::Permissions;
 [assembly:AssemblyDescriptionAttribute("A .NET wrapper for the RE2 regular expression library")];
 [assembly:AssemblyCompanyAttribute("Colt Blackmore")];
 [assembly:AssemblyProductAttribute("Re2.Net")];
-[assembly:AssemblyCopyrightAttribute("Re2.Net Copyright © 2014 Colt Blackmore, RE2 Copyright © 2003-2009 The RE2 Authors")];
+[assembly:AssemblyCopyrightAttribute("Re2.Net Copyright ¨Ï2014 Colt Blackmore, RE2 Copyright ¨Ï2003-2009 The RE2 Authors")];
 [assembly:AssemblyTrademarkAttribute("")];
 [assembly:AssemblyCultureAttribute("")];
 //#if _DEBUG

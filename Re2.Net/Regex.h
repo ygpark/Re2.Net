@@ -1,5 +1,5 @@
-/*
- *  Re2.Net Copyright © 2014 Colt Blackmore. All Rights Reserved.
+ï»¿/*
+ *  Re2.Net Copyright Â©2014 Colt Blackmore. All Rights Reserved.
  *
  *  Use of Re2.Net is governed by the GNU Affero General Public
  *  License, Version 3, which can be found in the LICENSES file
@@ -9,7 +9,7 @@
  *  mailto:coltblackmore+re2.net@gmail.com.
  *
  *
- *  RE2 Copyright © 2003-2009 The RE2 Authors. All Rights Reserved.
+ *  RE2 Copyright â“’2003-2009 The RE2 Authors. All Rights Reserved.
  *
  *  Use of RE2 is governed by a BSD-style license, which can be found in
  *  the LICENSES file and at http://re2.googlecode.com/hg/LICENSE.
@@ -101,8 +101,7 @@
 #endif
 
 #pragma managed(push, off)
-    #include "re2\src\re2.h"
-    #include "re2\src\stringpiece.h"
+    #include "re2\re2.h"
 #pragma managed(pop)
 
 #include "RegexOptions.h"
@@ -469,7 +468,7 @@ namespace Net
                 ///     <para>- or -</para>
                 ///     <para><paramref name="length"/> is less than zero or greater than the length of <paramref name="input"/>.</para>
                 ///     <para>- or -</para>
-                ///     <para><c><paramref name="startIndex"/> + <paramref name="length"/> – 1</c> identifies a position that is outside the range of <paramref name="input"/>.</para>
+                ///     <para><c><paramref name="startIndex"/> + <paramref name="length"/> - 1</c> identifies a position that is outside the range of <paramref name="input"/>.</para>
                 ///     <para>- or -</para>
                 ///     <para><paramref name="input"/> is not a valid Latin-1 string (flag <c>RegexOptions.Latin1</c> is set).</para>
                 ///     <para>- or -</para>
@@ -494,7 +493,7 @@ namespace Net
                 ///     <para>- or -</para>
                 ///     <para><paramref name="length"/> is less than zero or greater than the length of <paramref name="input"/>.</para>
                 ///     <para>- or -</para>
-                ///     <para><c><paramref name="startIndex"/> + <paramref name="length"/> – 1</c> identifies a position that is outside the range of <paramref name="input"/>.</para>
+                ///     <para><c><paramref name="startIndex"/> + <paramref name="length"/> - 1</c> identifies a position that is outside the range of <paramref name="input"/>.</para>
                 /// </exception>
                 _Match^ Match(array<Byte>^ input, int startIndex, int length);
                 

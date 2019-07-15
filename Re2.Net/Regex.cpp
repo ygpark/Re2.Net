@@ -11,8 +11,7 @@
     #include <malloc.h>
     #include <errno.h>
     #include <iostream>
-    #include "re2\src\re2.h"
-    #include "re2\src\stringpiece.h"
+    #include "re2\re2.h"
 #pragma managed(pop)
 
 #include <vcclr.h>
@@ -767,13 +766,13 @@ namespace Net
 
         Regex::Regex(String^ pattern, RegexOptions options)
         {
-            this->Regex::Regex(pattern, options, /* #defined in re2.h */ kDefaultMaxMem);
+            this->Regex::Regex(pattern, options, /* #defined in re2.h */ re2::RE2::Options::kDefaultMaxMem);
         }
 
 
         Regex::Regex(String^ pattern)
         {
-            this->Regex::Regex(pattern, RegexOptions::None, /* #defined in re2.h */ kDefaultMaxMem);
+            this->Regex::Regex(pattern, RegexOptions::None, /* #defined in re2.h */ re2::RE2::Options::kDefaultMaxMem);
         }
 
 
