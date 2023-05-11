@@ -39,7 +39,7 @@ x86 and x64 platforms are both supported, but because the underlying RE2 library
 Re2.Net is now distributed under the same permissive 3-clause BSD license as RE2 itself. If for some reason those terms still don't work for you, contact me at <coltblackmore+re2.net@gmail.com>.
 
 
-#### <a name="binaries"/>Binaries ([Download](https://github.com/0xcb/Re2.Net/releases))
+#### <a name="binaries"/>Binaries ([Download](https://github.com/ygpark/Re2.Net/releases))
 
 Building C++/CLI from source can be a finicky process, especially with older .NET versions (like 3.5) and VC++ compilers (like 2008). If you just want binaries, use the Download link above. The LICENSES file and XML documentation are included.
 
